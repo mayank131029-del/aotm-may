@@ -26,6 +26,44 @@ body {
 }
 
 
+.back-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: linear-gradient(135deg, #ff3e7f, #7c3aed);
+    color: white;
+
+    font-size: 24px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow:
+        0 10px 25px rgba(124, 58, 237, 0.35),
+        0 5px 15px rgba(255, 62, 127, 0.25);
+
+    transition: 0.3s;
+
+    z-index: 999;
+}
+
+.back-top:hover {
+    transform: translateY(-5px) scale(1.08);
+
+    box-shadow:
+        0 15px 35px rgba(124, 58, 237, 0.45),
+        0 8px 20px rgba(255, 62, 127, 0.35);
+}
+
 
 /* Header */
 
@@ -44,6 +82,7 @@ header {
 }
 
 .logo {
+    cursor: pointer;
     font-size: 26px;
     font-weight: bold;
     color: var(--white);

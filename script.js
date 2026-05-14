@@ -4,7 +4,7 @@ logo.addEventListener("click", ()=>{
     window.open('index.html', '_self')})
 
 
-const back2top = document.querySelector(".back2top");
+const back2top = document.querySelector(".back-top");
 
 window.addEventListener("scroll", () => {
 
@@ -26,3 +26,7 @@ back2top.addEventListener("click", () => {
 
 });
 
+
+let poster = document.querySelector("#poster").addEventListener("click", ()=>{
+    window.location.href ='https://www.google.com'
+})
