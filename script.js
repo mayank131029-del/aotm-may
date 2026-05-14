@@ -25,8 +25,3 @@ back2top.addEventListener("click", () => {
     });
 
 });
-
-
-let poster = document.querySelector("#poster").addEventListener("click", ()=>{
-    window.location.href ='https://www.google.com'
-})
